@@ -1,0 +1,135 @@
+.PaginaDeLogin,.PaginaDeRegistro,.Perfil,.seccionTareas,.seccionCambWeb,.seccionAnalytics{
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    display: block;
+}
+/*encabezado*/
+.banner{
+    background-color: aqua;
+    background-image:url("http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png");
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 25%;
+}
+.container{
+    height: 100%;
+}
+.fotoDePerfil{
+    background: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 25px;
+}
+/*cuerpo*/
+.fondo{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 70%;
+}
+/*Formulario*/
+.form{
+    height: auto;
+    width: 75%;
+}
+.form-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.form-body{
+    height: 80%;
+    padding: 0 9%;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    width: 100%;
+    height: 3em;
+    background-color: rgb(81, 172, 63);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+/*perfil*/
+h2{
+    width: 80%;
+    margin-top: 40px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.container-card{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    background-color: aliceblue;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 0.2rem;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    text-align: center;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 2em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fondo-card{
+    display: block;
+    background-color: rgb(183, 170, 112);
+    width: 100%;
+    height: 70%;
+}
+ul{
+    background: aliceblue;
+    margin: 2%;
+    border-radius: 6px;
+    padding: 1.9rem;
+    display: flex;
+}
+.footer{
+    display: flex;
+    background-color: chocolate;
+    width: 100%;
+    height: 60px;
+    position:sticky ;
+    z-index: 1;
+}
+.container{
+    height:50%;
+}
+summary{
+    width: 100%;
+}
